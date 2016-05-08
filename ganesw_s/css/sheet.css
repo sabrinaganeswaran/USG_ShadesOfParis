@@ -1,0 +1,355 @@
+body {
+    background-color: white;
+    width: 100%;
+    font-family: "Lucida Sans Unicode";
+}
+
+/*------------------------------------- Style Header */
+.header {
+    height: 40px;
+    margin: auto;
+    /*width: 960px;*/
+}
+
+#headleft {
+    /*color: red;*/
+    /*float: left;*/
+    float: left;
+    /* margin-left: 10%;*/
+    line-height: 40px;
+    margin-left: 20%
+}
+/*#headleft a {
+    color: red;
+    margin-left: 5px;
+    float: left;
+    margin-left: 10%;
+}*/
+
+#headright {
+    /*color: red;*/
+    float: right;
+    line-height: 40px;
+    margin-right: 20%
+}
+/*#headright a {
+    color: red;
+    margin-right: 5px;
+}*/
+
+#one {
+   color: green;
+   float : left;
+}
+
+#two {
+   color: blue;
+   float: left;
+}
+
+#compteur {
+  color: red;
+  float: right;
+}
+
+
+/*------------------------------------- Logo */
+.logo {
+      /*width: 960px;*/
+      /*background-color: green;*/
+}
+
+/*------------------------------------- Navigation des menus */
+#navmenu ul {
+         margin: 0;
+         padding: 0;
+         list-style-type: none;
+         text-align: center;
+         background-color: white;
+         /*height: 75%;*/
+}
+
+#navmenu ul li {
+         display: inline;
+}
+
+#navmenu ul li a {
+         text-decoration: none;
+         padding: .2em 1em;
+         color: black;
+         background-color: white;
+}
+
+ #navmenu ul li a:hover {
+ 	 color: #B52020;
+}
+
+/*------------------------------------- PUB AJOUT DYNAMIQUE AU PANIER */
+.ajoutCart {
+           text-align: center;
+	   background-color: green;
+	   height: 375px;
+}
+
+/*.pub1 {
+      /*float: left;;
+      margin-left: 25%;*/
+}*/
+
+#pub1 {
+      background-color: pink;
+      float: left;	
+      height: 500px;
+      /*margin-left: 5%;*/
+
+}
+
+#info {
+      background-color: yellow;
+      margin-top: 17px;
+}
+
+/*------------------------------------- Slide */
+.slide {
+       display: block;
+       margin: 0 auto;
+}
+
+/*------------------------------------- New in */
+.new {
+  text-align: center;
+  font-size:
+}
+
+/*------------------------------------- Nouveautes */
+.latest {
+        /*background-color: blue;
+        /*width: 50%;*/
+  	height: 523px;
+  	margin-left: 161px;
+}
+
+#men {
+     /*background-color: pink;*/
+     float: left;
+     margin-left: 10%;
+}
+
+#women {
+       /*background-color: yellow;*/
+       float: left;
+       margin-left: 5%;
+}
+
+#kids {
+      /*background-color: red;*/
+      float: left;
+      margin-left: 5%;
+}
+
+/*------------------------------------- Footer */
+.upfoot {
+  	background-color: #F7F4F4;
+  	/*background-color: blue;
+  	/*width: 50%;*/
+  	height: 260px;
+  	/*margin-left: 161px;*/
+}
+
+#collections {
+     /*background-color: pink;*/
+     float: left;
+     margin-left: 20%;
+}
+
+#service {
+       /*background-color: yellow;*/
+       float: left;
+       margin-left: 14%;
+       margin-right: 10%;
+}
+
+#aboutus {
+      /*background-color: red;*/
+      float: right;
+      margin-right: 20%;
+      margin-left: 4%;
+}
+
+#footer {
+
+}
+
+.foot {
+      /*background-color: #F7F4F4;*/
+      text-align: center;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: #696969; /** Gris du footer **/
+      border-top: 1px solid #696969;
+      font-size: 15px;
+      /*position:bottom;*/
+}
+
+/*------------------------------------- Icon Footer */
+.icon {
+  /*background-color: blue;*/
+  margin-top: 34px;
+}
+
+#fb {
+     /*background-color: pink;*/
+     float: left;
+     /*margin-left: 20%;*/
+}
+
+#tw {
+       /*background-color: yellow;*/
+       float: left;
+       margin-left: 26%;
+       margin-right: 10%;
+}
+
+#pin {
+     /* background-color: red;*/
+      float: right;
+      /*margin-right: 20%;*/
+      margin-left: 4%;
+}
+
+#insta {
+       /*background-color: green;*/
+       float: left;
+       margin-left: 21%;
+       margin-right: 10%;
+}
+
+#mail {
+      /*background-color: blue;*/
+      float: right;
+      margin-right: 22%;
+      margin-left: 4%;
+}
+
+/*------------------------------------- AccountInscription */
+.civility {
+margin :auto;
+width: 350px;
+}
+
+/*------------------------------------- PANIER */
+input[type="number"] {
+   width:30px;
+}
+
+/*table, th, td {
+border-top: 1px dashed black;
+}*/
+
+/*------------------------------------- ACCOUNT SIGN UP et SUBSCRIBE */
+.justsubscribe {
+float:left;
+margin-bottom:10%;
+margin-left:30%;
+}
+
+.justlogin {
+/*overflow:auto;*/
+float:right;
+margin-top:5%;
+margin-right:30%;
+
+}
+
+#main {
+overflow:auto;
+width:100%;
+}
+
+/*------------------------------------- Men's products */
+.banderole {
+float:center;
+}
+#photo{
+position:relative;
+text-align: center;
+}
+
+#photo li{
+display: inline-block;
+position: relative;
+}
+
+/*------------------------------------- ADVICE */
+.advice {
+  font-size: 10px;
+  height: 870px;
+  /*background-image:url(image/adbg.jpg);*/
+  /*background-color: green;*/
+}
+
+.background{
+  opacity: 0.2;
+  width: 100%;
+}
+
+#do {
+     /*background-color: pink;*/
+     float: left;
+     margin-left: 20%;
+     margin-top: -850px;
+     margin-right: 54%;
+}
+
+#donot {
+       /*background-color: yellow;*/
+       /*float: left;*/
+       margin-top: -850px;
+       margin-right: 20%;
+       margin-left: 54%;
+}
+
+/*.vertical {
+  background-color: green;
+  border-left: solid black;
+  width: 1%;
+  height: 728px;
+  margin-top: -850px;
+  margin-left: 863px;
+}*/
+
+/*------------------------------------- DETAILS*/
+.img_detail {
+float: left;
+width: 563px;
+margin-right: 6%;
+margin-left: 35%;
+font-size: 5px;
+}
+
+/*------------------------------------- Prod_DETAILS
+.prod {
+  background-color: green;
+  height: 450px;
+}
+
+#img_prod {
+    color: grey;
+    /*float: left;*/
+    /*float: left;
+    /* margin-left: 10%;*/
+    /*line-height: 40px;
+    margin-left: 20%
+}*/
+
+
+/*#detail_prod {
+    color: yellow;
+    float: right;
+    line-height: 40px;
+    margin-right: 20%
+}
+*/
